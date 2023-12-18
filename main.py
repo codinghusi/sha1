@@ -1,11 +1,11 @@
 from sha import sha1_of_file, sha1_hex
 
-print("Hash von 'krypto ist toll':")
-print(sha1_hex(b'krypto ist toll'))
+print("Hash of 'hello world':")
+print(sha1_hex(b'hello world'))
 print()
 
-print("Hash von 'Krypto ist toll':")
-print(sha1_hex(b'Krypto ist toll'))
+print("Hash of 'Hello world':")
+print(sha1_hex(b'Hello world'))
 print()
 
 print("Dokument 1:")
